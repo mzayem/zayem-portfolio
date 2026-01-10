@@ -1,4 +1,7 @@
 import { PropsWithChildren, useEffect, useState } from "react";
+import About from "./About";
+import WhatIDo from "./WhatIDo";
+import Career from "./Career";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
 import setSplitText from "./utils/splitText";
@@ -28,6 +31,9 @@ const MainContainer = ({ children }: PropsWithChildren) => {
         <div id="smooth-content">
           <div className="container-main">
             <Landing>{!isDesktopView && children}</Landing>
+            <About />
+            <WhatIDo />
+            <Career />
           </div>
         </div>
       </div>
