@@ -23,14 +23,14 @@ const Navbar = () => {
     smoother.scrollTop(0);
     smoother.paused(true);
 
-    const links = document.querySelectorAll(".header ul a");
+    let links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
-      const element = elem as HTMLAnchorElement;
+      let element = elem as HTMLAnchorElement;
       element.addEventListener("click", (e) => {
         if (window.innerWidth > 1024) {
           e.preventDefault();
-          const elem = e.currentTarget as HTMLAnchorElement;
-          const section = elem.getAttribute("data-href");
+          let elem = e.currentTarget as HTMLAnchorElement;
+          let section = elem.getAttribute("data-href");
           smoother.scrollTo(section, true, "top top");
         }
       });
