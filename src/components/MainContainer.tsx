@@ -14,7 +14,7 @@ const TechStack = lazy(() => import("./TechStack"));
 
 const MainContainer = ({ children }: PropsWithChildren) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(
-    window.innerWidth > 1024
+    window.innerWidth > 1024,
   );
 
   useEffect(() => {
