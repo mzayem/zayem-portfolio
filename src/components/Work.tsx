@@ -5,10 +5,10 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Zaytech Hub",
+    category: "Ecommerce Platform with CMS",
+    tools: "Next.js, Node.JS, Prisma, PostgreSQL",
+    image: "/images/ZaytechHub.png",
   },
   {
     title: "Radix",

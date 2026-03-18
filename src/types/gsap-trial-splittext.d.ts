@@ -1,4 +1,4 @@
-declare module "gsap-trial/SplitText" {
+declare module "gsaps/SplitText" {
   import type { gsap } from "gsap";
 
   class SplitText {
