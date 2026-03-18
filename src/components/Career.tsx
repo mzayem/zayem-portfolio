@@ -59,7 +59,7 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Full Stack Developer</h4>
-                <h5>Data Medicine Compan</h5>
+                <h5>Data Medicine Company</h5>
               </div>
               <h3>NOW</h3>
             </div>

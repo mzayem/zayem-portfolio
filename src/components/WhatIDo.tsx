@@ -90,8 +90,9 @@ const WhatIDo = () => {
               <h3>FRONTEND</h3>
               <h4>Building Interactive UIs</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                Crafting performant, responsive interfaces with modern
+                frameworks. From SPAs to micro-frontends, I deliver
+                pixel-perfect experiences.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -135,13 +136,12 @@ const WhatIDo = () => {
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">NestJS</div>
-                <div className="what-tags">Express.js</div>
+                <div className="what-tags">ASP.NET</div>
+                <div className="what-tags">.Net Framework</div>
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div>
-                <div className="what-tags">Python</div>
+                <div className="what-tags">C Sharp</div>
               </div>
               <div className="what-arrow"></div>
             </div>
