@@ -135,3 +135,13 @@ body {
     font-size: 40px;
   }
 }
+
+/* index.css */
+.character-model canvas {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+#smooth-wrapper {
+  will-change: transform;
+}
